@@ -142,7 +142,3 @@ def get_logger(name: str) -> logging.Logger:
         logger.propagate = True
 
     return logger
-
-
-# Run the root logger configuration when this module is imported
-configure_root_logger()
